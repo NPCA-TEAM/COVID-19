@@ -1,4 +1,4 @@
-# Em construção...
+# NPCA
 
 Essa base de dados é parte do projeto de bolsa cientifica "Projeções de Dados Epidemiológicos no Estado do Pará por meio de Inteligência Computacional e Modelagem Matemática" , registrado pela Universidade Federal Rural da Amazônia, com bolsa da CNPq.
 

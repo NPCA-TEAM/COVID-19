@@ -18,7 +18,7 @@
 ## Descrição do projeto
 
 <p align="justify">
-A conjuntura do Pará, segundo maior estado da federação, apresenta diversas complexidades características do contexto amazônico que podem potencializar os impactos de diversas doenças. Neste contexto, é relevante a criação de modelos capazes de identificar padrões baseado em dados observados com o intuito de realizar projeções futuras. Este projeto pretende produzir um framework capaz de gerar projeções sobre o comportamento de epidemias que afetam o estado do Pará, através de abordagens práticas, matematicamente competentes e computacionalmente eficientes. Os artefatos produzidos podem ser úteis para a tomada de decisão de gestores públicos, auxiliando na avaliação de impacto das intervenções, realocação de recursos hospitalares e otimização das estratégias de controle nas diversas regiões do Pará. <br> Essa base de dados é parte do projeto de bolsa cientifica "Projeções de Dados Epidemiológicos no Estado do Pará por meio de Inteligência Computacional e Modelagem Matemática", registrado pela Universidade Federal Rural da Amazônia, com bolsa da CNPq.
+A conjuntura do Pará, segundo maior estado da federação, apresenta diversas complexidades características do contexto amazônico que podem potencializar os impactos de diversas doenças. Neste contexto, é relevante a criação de modelos capazes de identificar padrões baseado em dados observados com o intuito de realizar projeções futuras. Este projeto pretende produzir um framework capaz de gerar projeções sobre o comportamento de epidemias que afetam o estado do Pará, através de abordagens práticas, matematicamente competentes e computacionalmente eficientes. Os artefatos produzidos podem ser úteis para a tomada de decisão de gestores públicos, auxiliando na avaliação de impacto das intervenções, realocação de recursos hospitalares e otimização das estratégias de controle nas diversas regiões do Pará. <br> Esse repositório faz parte do projeto científico "Projeções de Dados Epidemiológicos no Estado do Pará por meio de Inteligência Computacional e Modelagem Matemática", registrado pela Universidade Federal Rural da Amazônia, com bolsa da CNPq.
 
 </p>
 
@@ -53,9 +53,12 @@ A seguir, será exposto a sequência de scripts que devera ser seguido para trat
 Temos os seguintes scrips: Coleta, Integração, Treino, Predição, Avaliação, Utilização, Suavização, Ajuste e Análise dos dados. Ou seja, temos aproximadamente doze scrips, onde em treinamento e predição temos scripts de casos e óbitos. A sequência é:
 
 1. Coletar Dados
+
    Onde é coletado a média móvel dos dados de casos diagnosticados e óbitos confirmados.
    <br>
+
 2. Integrar Dados
+
    Onde é criado dataframes com as médias móveis para cada situação:
 
    - Média Móvel Atual
@@ -64,6 +67,7 @@ Temos os seguintes scrips: Coleta, Integração, Treino, Predição, Avaliação
      <br>
 
 3. Investidar Dados
+
    Onde e feito toda uma investigação em cima dos dados obtidos dos outros scripts, como:
 
    - Tratamento dos dados: Substituição de valores negativos ou iguais à 0 por valores que não irão comprometer a análise;
@@ -86,26 +90,31 @@ Temos os seguintes scrips: Coleta, Integração, Treino, Predição, Avaliação
    <br>
 
 6. Avaliação
+
    Script onde é realizado uma avalização nos dados do script de predição, onde ao final dele é gerado uma tabela de erro.
    <br>
 
 7. Utilização do Modelo
+
    Este script utiliza as informações exportadas do melhor modelo treinado e realiza as projeções de acordo com eles, e com base no resultado das projeções, ele importa os gráficos gerados para uma pasta definida na anteriormente.
    <br>
 
 8. Suavização e Ajuste da Projeção
-   Este script está em .R, onde foi aplicado o medelo ARIMA sobre os resíduos gerados no script _Avaliação_.
+
+   Este script está em .R, onde foi aplicado o modelo ARIMA sobre os resíduos gerados no script _Avaliação_.
    <br>
 
 9. Ajuste da Projeção Pós-Uso do Modelo
+
    Script onde é realizado um ajuste nos dados após a utilização do modelo.
    <br>
 
 10. Análise
+
     Script onde é realizado uma análise nos dados de casos e óbitos.
     <br>
 
-11. Projeção Pós-Uso Modelo em Gráfico Único
+11. Projeção Pós-Uso Modelo em Gráfico Único <br>
     Este script é opcional, onde gera as projeções após o uso do modelo em gráficos únicos.
     <br>
 

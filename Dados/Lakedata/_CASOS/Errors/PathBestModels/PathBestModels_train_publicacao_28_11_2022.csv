@@ -1,0 +1,6 @@
+Residuos,Erros,Score
+/content/drive/MyDrive/NPCA - COVID/_CASOS/Models/TCN-Model_28_11_2022.pth.tar,/content/drive/MyDrive/NPCA - COVID/_CASOS/Models/TRANSFORMER-Model_28_11_2022.pth.tar,5
+/content/drive/MyDrive/NPCA - COVID/_CASOS/Models/NHITS-Model_28_11_2022.pth.tar,/content/drive/MyDrive/NPCA - COVID/_CASOS/Models/NHITS-Model_28_11_2022.pth.tar,4
+/content/drive/MyDrive/NPCA - COVID/_CASOS/Models/NBEATS-Model_28_11_2022.pth.tar,/content/drive/MyDrive/NPCA - COVID/_CASOS/Models/NBEATS-Model_28_11_2022.pth.tar,3
+/content/drive/MyDrive/NPCA - COVID/_CASOS/Models/TFT-Model_28_11_2022.pth.tar,/content/drive/MyDrive/NPCA - COVID/_CASOS/Models/TCN-Model_28_11_2022.pth.tar,2
+/content/drive/MyDrive/NPCA - COVID/_CASOS/Models/TRANSFORMER-Model_28_11_2022.pth.tar,/content/drive/MyDrive/NPCA - COVID/_CASOS/Models/TFT-Model_28_11_2022.pth.tar,1
